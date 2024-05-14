@@ -1,0 +1,23 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: 40_SB_RabbitMQ_AMQP_Sub
+  
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: honnurcse.rymec@gmail.com
+    password: xhfo cops uagl bqwx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            
+  rabbitmq:
+   host: 3.108.66.77
+   port: 5672
+   username: guest
+   password: guest
