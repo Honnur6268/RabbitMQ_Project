@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: 38_SB_RabbitMQ_AMQP
+#
+#  rabbitmq:
+#    port: 5672
+#    host: localhost
+#    username: guest
+#    password: guest
+
+rabbitmq:
+  queue:
+    name: nk_queue
+    json:
+      name: nk_json_queue
+  exchange:
+    name: nk_exchange
+  routing-key:
+    name: nk_routingKey
+    json:
+      key: nk_json_routingKey
